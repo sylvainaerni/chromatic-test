@@ -2,7 +2,9 @@ export default {
   title: 'Demo',
 };
 
-export const Heading = () => '<h1>Hello World</h1>';
+export const Introduction = () => (
+  '<h1>Introduction and test for Chromatic</h1>'
+)
 
 export const Button = () => {
   const btn = document.createElement('button');
@@ -12,6 +14,3 @@ export const Button = () => {
   return btn;
 };
 
-export const Introduction = () => (
-  '<h2>Introduction</h2>'
-)

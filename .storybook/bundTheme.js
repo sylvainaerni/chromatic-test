@@ -1,7 +1,7 @@
 import { create } from '@storybook/theming/create';
 
 export default create({
-  base: 'light',
+  base: "light",
 
   // colorPrimary: 'hotpink',
   // colorSecondary: 'deepskyblue',
@@ -14,24 +14,25 @@ export default create({
 
   // Typography
   fontBase: '"Open Sans", sans-serif',
-  fontCode: 'monospace',
+  fontCode: "monospace",
 
   // Text colors
-  textColor: 'black',
-  textInverseColor: 'rgba(255,255,255,0.9)',
+  textColor: "black",
+  textInverseColor: "rgba(255,255,255,0.9)",
 
   // Toolbar default and active colors
-  barTextColor: 'silver',
-  barSelectedColor: 'black',
-  barBg: 'hotpink',
+  // barTextColor: "silver",
+  // barSelectedColor: "black",
+  // barBg: "hotpink",
 
   // Form colors
-  inputBg: 'white',
-  inputBorder: 'silver',
-  inputTextColor: 'black',
+  inputBg: "white",
+  inputBorder: "silver",
+  inputTextColor: "black",
   inputBorderRadius: 4,
 
-  brandTitle: 'My custom storybook',
-  brandUrl: 'https://example.com',
-  brandImage: 'https://placehold.it/350x150',
+  brandTitle: "Bund design system",
+  brandUrl: "https://admin.ch",
+  brandImage:
+    "https://www.admin.ch/gov/fr/_jcr_content/logo/image.imagespooler.png/1443432260207/Logo%20Schweizerische%20Eidgenossenschaft.png",
 });
