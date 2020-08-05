@@ -3,7 +3,7 @@ export default {
 };
 
 export const Introduction = () => (
-  '<h1>Introduction and test for Chromatic</h1>'
+  '<h1>Introduction to the Bund design system</h1>'
 )
 
 export const Button = () => {
